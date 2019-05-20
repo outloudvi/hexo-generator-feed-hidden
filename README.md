@@ -1,10 +1,12 @@
-# hexo-generator-feed
+# hexo-generator-feed-hidden
+
+Upstream status: 
 
 [![Build Status](https://travis-ci.org/hexojs/hexo-generator-feed.svg?branch=master)](https://travis-ci.org/hexojs/hexo-generator-feed)
 [![NPM version](https://badge.fury.io/js/hexo-generator-feed.svg)](https://www.npmjs.com/package/hexo-generator-feed)
 [![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-generator-feed.svg)](https://coveralls.io/r/hexojs/hexo-generator-feed?branch=master)
 
-Generate Atom 1.0 or RSS 2.0 feed.
+Generate Atom 1.0 or RSS 2.0 feed with hidden option.
 
 ## Install
 
@@ -19,6 +21,8 @@ $ npm install hexo-generator-feed --save
 ## Use
 
 In the [front-matter](https://hexo.io/docs/front-matter.html) of your post, you can optionally add a `description`, `intro` or `excerpt` setting to write a summary for the post. Otherwise the summary will default to the excerpt or the first 140 characters of the post.
+
+To hide a post from RSS, add `hidden: true` to your post's front matter.
 
 ## Options
 
