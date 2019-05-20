@@ -1,7 +1,7 @@
 {
-  "name": "hexo-generator-feed",
+  "name": "hexo-generator-feed-hidden",
   "version": "2.2.0",
-  "description": "Feed generator plugin for Hexo",
+  "description": "Feed generator plugin for Hexo with hidden options.",
   "main": "index",
   "scripts": {
     "eslint": "eslint .",
@@ -17,7 +17,7 @@
     "index.js",
     "rss2.xml"
   ],
-  "repository": "hexojs/hexo-generator-feed",
+  "repository": "outloudvi/hexo-generator-feed",
   "homepage": "https://hexo.io/",
   "keywords": [
     "hexo",
@@ -28,6 +28,7 @@
   ],
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
   "maintainers": [
+    "Outvi V <git@outv.im>",
     "Abner Chou <hi@abnerchou.me> (http://abnerchou.me)"
   ],
   "license": "MIT",
