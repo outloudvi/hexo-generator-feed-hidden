@@ -18,7 +18,7 @@
     "rss2.xml"
   ],
   "repository": "outloudvi/hexo-generator-feed",
-  "homepage": "https://hexo.io/",
+  "homepage": "https://github.com/outloudvi/hexo-generator-feed-hidden",
   "keywords": [
     "hexo",
     "rss",
@@ -28,7 +28,7 @@
   ],
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
   "maintainers": [
-    "Outvi V <git@outv.im>",
+    "Outvi V <git+oss@outv.im>",
     "Abner Chou <hi@abnerchou.me> (http://abnerchou.me)"
   ],
   "license": "MIT",
